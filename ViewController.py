@@ -9,10 +9,10 @@ import preprocessor, helper
 import seaborn as sns
 from ui_components import download_button
 from ui_components import load_lottieurl
-#import nltk
-#nltk.download('vader_lexicon')
-#from nltk.sentiment.vader import SentimentIntensityAnalyzer
-#sentiment_analyzer = SentimentIntensityAnalyzer()
+import nltk
+nltk.download('vader_lexicon')
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+sentiment_analyzer = SentimentIntensityAnalyzer()
 
 import base64
 
