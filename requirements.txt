@@ -1,0 +1,8 @@
+streamlit
+streamlit_lottie
+matplotlib
+seaborn
+nltk
+urlextract
+pandas
+regex
