@@ -29,7 +29,7 @@ class ViewController:
         )
         self.lottie_chat = load_lottieurl('phone_chat.json')
         self.lottie_message = load_lottieurl('chatting.json')
-        self.github_link = 'https://github.com/Ibtesum-Sakib/messenger-analyser'
+        self.github_link = 'https://github.com/Ibtesum-Sakib/messenger-chat-analyser'
         self.file_path = 'message.json'
         self.lottie_data = load_lottieurl('data_analysis_animation.json')
 
