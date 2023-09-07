@@ -21,7 +21,7 @@ def fetch_stats(selected_sender,df):
         words.extend(str(content).split())
 
     #Fetching number of media message
-    num_of_media = df[df['type'] == 'Share'].shape[0]
+    num_of_media = df[df['type'] == "Share"].shape[0]
     #fetch number of links
     num_of_call = df[df['type'] == 'Call'].shape[0]
 
